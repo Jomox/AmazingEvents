@@ -1,0 +1,62 @@
+    .navbar {
+        padding: 20px 0;
+    }
+    
+    li {
+        padding: 0 12px;
+    }
+    
+    .arrow {
+        width: 25px;
+    }
+    
+    .seccion {
+        display: inline;
+    }
+    
+    .carrusel {
+        display: flex;
+        justify-content: space-between;
+        padding: 33px 0;
+        margin: 2px 0;
+        /* background-color: yellowgreen; */
+    }
+    
+    .sitios {
+        background-color: rgb(244, 244, 120);
+    }
+    
+    .controles {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .search {
+        width: 35%;
+    }
+    
+    .tarjetas {
+        display: flex;
+        justify-content: space-around;
+        margin: 35px 0;
+    }
+    
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    ul {
+        list-style-type: none;
+        display: inline;
+    }
+    
+    ul li {
+        display: inline;
+    }
+    
+    .social {
+        width: 40px;
+    }
