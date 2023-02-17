@@ -2,8 +2,29 @@
         padding: 20px 0;
     }
     
+    ul {
+        list-style-type: none;
+        display: inline;
+    }
+    
     li {
+        /* display: flex; */
         padding: 0 12px;
+        display: inline-flex;
+    }
+    
+    .boton {
+        display: flex;
+        padding: 0.5rem 1rem;
+        background-color: #bdf6f6;
+        color: #fff;
+        text-decoration: none;
+        border: none;
+        border-radius: 0.25rem;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        min-width: 80px;
     }
     
     .arrow {
@@ -23,7 +44,7 @@
     }
     
     .sitios {
-        background-color: rgb(244, 244, 120);
+        background-color: rgb(240, 240, 200);
     }
     
     .controles {
@@ -42,19 +63,29 @@
         margin: 35px 0;
     }
     
+    .card {
+        padding: 0;
+    }
+    
+    .infoTarjeta {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .infoTarjeta,
+    p {
+        margin: 0;
+    }
+    
+    .card img {
+        height: 120px;
+        object-fit: cover;
+    }
+    
     footer {
         display: flex;
         align-items: center;
         justify-content: space-between;
-    }
-    
-    ul {
-        list-style-type: none;
-        display: inline;
-    }
-    
-    ul li {
-        display: inline;
     }
     
     .social {
