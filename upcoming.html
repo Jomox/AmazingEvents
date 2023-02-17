@@ -15,7 +15,7 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <img src="./img/Logo_Amazing_Events.png" alt="logo" width="120">
+                <img src="./img/Logo_Amazing_Events.png" alt="logo" width="140">
             </a>
         </div>
         <div class="container-fluid col-xs-12 col-sm-12 col-md-8 col-lg-6">
@@ -23,31 +23,25 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-
-                        <a class="nav-link" href="index.html"><button
-                             class="btn btn-md btn-outline-secondary" type="button">Home</button></a>
-
-                    </li>
-                    <li class="nav-item">
-
-                        <a class="nav-link active" aria-current="page" href="#"><button class="btn btn-md 
-                            btn-outline-secondary" type="button">Upcoming Events</button></a>
+                        <!-- <a class="nav-link active" aria-current="page" href="#"><button
+                        class="btn btn-md btn-outline-secondary" type="button">Home</button></a> -->
+                        <a href="index.html" class="boton">Home</a>
 
                     </li>
                     <li class="nav-item">
-
-                        <a class="nav-link" href="past.html"><button class="btn btn-md btn-outline-secondary"
-                             type="button">Past Events</button></a>
+                        <a href="#" class="boton">Upcoming Events</a>
 
                     </li>
                     <li class="nav-item">
-
-                        <a class="nav-link" href="#"><button class="btn btn-md btn-outline-secondary" type="button">contact</button></a>
+                        <a href="past.html" class="boton">Past Events</a>
 
                     </li>
                     <li class="nav-item">
+                        <a href="contact.com" class="boton">contact</a>
 
-                        <a class="nav-link" href="#"><button class="btn btn-md btn-outline-secondary" type="button">stats</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="boton">stats</a>
 
                     </li>
 
@@ -57,12 +51,13 @@
         </div>
     </nav>
     <!-- ******************************************************************************************* -->
+    <!-- ******************************************************************************************* -->
     <div class="container-fluid sitios">
 
         <div class="carrusel ">
-            <a href="index.html"><img class="arrow " src="./img/arrow-thin-chevron-left-icon.png " alt="arrowLeft "></a>
+            <a href="stats.html"><img class="arrow " src="./img/arrow-thin-chevron-left-icon.png " alt="arrowLeft "></a>
             <h2 class="seccion ">Upcoming Events</h2>
-            <a href=" "><img class="arrow " src="./img/arrow-thin-chevron-right-icon.png " alt="arrowRight "></a>
+            <a href="index.html"><img class="arrow " src="./img/arrow-thin-chevron-right-icon.png " alt="arrowRight "></a>
         </div>
         <!-- <div class="carrusel ">
             <a href=" "><img class="arrow " src="./img/arrow-thin-chevron-left-icon.png " alt="arrowLeft "></a>
@@ -76,28 +71,29 @@
         </div> -->
     </div>
     <!-- ******************************************************************************************* -->
+    <!-- ******************************************************************************************* -->
     <div class="container-fluid controles py-4">
 
         <div class="check col-sm-12 col-md-8 col-lg-6 col-xg-6">
             <div class="form-check form-check-inline">
                 <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                <label class="form-check-label" for="inlineCheckbox1">1</label>
+                <label class="form-check-label" for="inlineCheckbox1">Categ. 1</label>
             </div>
             <div class="form-check form-check-inline">
                 <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                <label class="form-check-label" for="inlineCheckbox2">2</label>
+                <label class="form-check-label" for="inlineCheckbox2">Categ. 2</label>
             </div>
             <div class="form-check form-check-inline">
                 <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                <label class="form-check-label" for="inlineCheckbox3">3</label>
+                <label class="form-check-label" for="inlineCheckbox3">Categ. 3</label>
             </div>
             <div class="form-check form-check-inline">
                 <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
-                <label class="form-check-label" for="inlineCheckbox4">4</label>
+                <label class="form-check-label" for="inlineCheckbox4">Categ. 4</label>
             </div>
             <div class="form-check form-check-inline">
                 <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
-                <label class="form-check-label" for="inlineCheckbox5">5</label>
+                <label class="form-check-label" for="inlineCheckbox5">Categ. 5</label>
             </div>
         </div>
 
@@ -111,39 +107,52 @@
     <!-- ******************************************************************************************* -->
     <!-- ******************************************************************************************* -->
     <div class="container-fluid mb-5">
-        <div class="row tarjetas ">
-            <div class="card " style="width: 15rem; ">
-                <img src="./img/Museum_Tour.jpg " class="card-img-top " alt="... ">
-                <div class="card-body card text-center ">
-                    <h5 class="card-title ">Título</h5>
-                    <p class="card-text ">Texto descriptivo</p>
-                    <a href="# " class="btn btn-primary ">Ir a algún lugar</a>
+        <div class="row tarjetas">
+            <div class="card" style="width: 15rem;">
+                <img src="./img/Museum_Tour.jpg" class="card-img-top" alt="museum">
+                <div class="card-body card text-center">
+                    <h5 class="card-title pt-2">Museum Tour</h5>
+                    <p class="card-text">Texto descriptivo</p>
+                    <div class="infoTarjeta py-2 my-2 mx-3">
+                        <p class="pt-2">Price $0000</p>
+                        <a href="#" class="btn btn-primary">Ir a...</a>
+                    </div>
                 </div>
             </div>
-            <div class="card " style="width: 15rem; ">
-                <img src="./img/Museum_Tour.jpg " class="card-img-top " alt="... ">
-                <div class="card-body card text-center ">
-                    <h5 class="card-title ">Título</h5>
-                    <p class="card-text ">Texto descriptivo</p>
-                    <a href="# " class="btn btn-primary ">Ir a algún lugar</a>
+            <div class="card" style="width: 15rem;">
+                <img src="./img/Cinema.jpg" class="card-img-top" alt="cinema">
+                <div class="card-body card text-center">
+                    <h5 class="card-title pt-2">Cinema</h5>
+                    <p class="card-text">Texto descriptivo</p>
+                    <div class="infoTarjeta py-2 my-2 mx-3">
+                        <p class="pt-2">Price $0000</p>
+                        <a href="#" class="btn btn-primary">Ir a...</a>
+                    </div>
                 </div>
             </div>
-            <div class="card " style="width: 15rem; ">
-                <img src="./img/Museum_Tour.jpg " class="card-img-top " alt="... ">
-                <div class="card-body card text-center ">
-                    <h5 class="card-title ">Título</h5>
+            <div class="card" style="width: 15rem;">
+                <img src="./img/Marathon.jpg" class="card-img-top" alt="marathon">
+                <div class="card-body card text-center">
+                    <h5 class="card-title pt-2">Marathon</h5>
                     <p class="card-text ">Texto descriptivo</p>
-                    <a href="# " class="btn btn-primary ">Ir a algún lugar</a>
+                    <div class="infoTarjeta py-2 my-2 mx-3">
+                        <p class="pt-2">Price $0000</p>
+                        <a href="#" class="btn btn-primary">Ir a...</a>
+                    </div>
                 </div>
             </div>
-            <div class="card " style="width: 15rem; ">
-                <img src="./img/Museum_Tour.jpg " class="card-img-top " alt="... ">
-                <div class="card-body card text-center ">
-                    <h5 class="card-title ">Título</h5>
+            <div class="card" style="width: 15rem;">
+                <img src="./img/Music_Concert.jpg" class="card-img-top" alt="music_concert">
+                <div class="card-body card text-center">
+                    <h5 class="card-title pt-2">Music Concert</h5>
                     <p class="card-text ">Texto descriptivo</p>
-                    <a href="# " class="btn btn-primary ">Ir a algún lugar</a>
+                    <div class="infoTarjeta py-2 my-2 mx-3">
+                        <p class="pt-2">Price $0000</p>
+                        <a href="# " class="btn btn-primary">Ir a...</a>
+                    </div>
                 </div>
             </div>
+
 
         </div>
 
@@ -153,7 +162,7 @@
     <!-- ******************************************************************************************* -->
     <!-- ******************************************************************************************* -->
 
-    <footer class="container-fluid mb-5">
+    <footer class="container-fluid mt-5 mb-3">
 
         <ul>
             <li>
