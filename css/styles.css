@@ -102,6 +102,7 @@
     .form {
         width: 450px;
     }
-    /* table {
-        padding: 0;
-    } */
+    
+    table {
+        font-size: 13px;
+    }
