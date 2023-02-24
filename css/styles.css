@@ -60,11 +60,15 @@
     .tarjetas {
         display: flex;
         justify-content: space-around;
-        margin: 35px 0;
+        margin: 35px;
     }
     
     .card {
         padding: 0;
+    }
+    
+    #cardContainer {
+        margin: 20px;
     }
     
     .infoTarjeta {
