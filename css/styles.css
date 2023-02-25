@@ -60,7 +60,7 @@
     .tarjetas {
         display: flex;
         justify-content: space-around;
-        margin: 35px;
+        margin: 5px;
     }
     
     .card {
@@ -78,7 +78,8 @@
     
     .infoTarjeta,
     p {
-        margin: 0;
+        margin: 0 6px;
+        text-align: justify;
     }
     
     .card img {
