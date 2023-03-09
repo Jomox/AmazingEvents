@@ -185,3 +185,13 @@ function createCard(event) {
         </div>
     </div>`
 }
+
+function createCheckboxes(eventCheckbox) {
+    return `<div class="form-check form-check-inline">
+    <input class="form-check-input" type="checkbox" id="check${eventCheckbox}" value="${eventCheckbox}">
+    <label class="form-check-label" for="check${eventCheckbox}">${eventCheckbox}</label>
+</div>`
+}
+
+let dinamicCheckbox = document.querySelectorAll(".form-check-inline");
+console.log(dinamicCheckbox);

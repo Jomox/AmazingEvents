@@ -111,3 +111,14 @@
     table {
         font-size: 13px;
     }
+    
+    .details {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* min-height: 100vh; */
+    }
+    
+    .details2 {
+        height: 250px;
+    }
